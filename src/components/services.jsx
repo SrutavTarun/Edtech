@@ -1,22 +1,45 @@
-import "./styles/about.css";
+import "./styles/services.css";
 
 const services = () => {
   return (
-    <div className="about">
-      <div className="aboutheading">
-        <h2>ABOUT US</h2>
-        <div className="aboutunderline"></div>
+    <div className="services">
+      <div className="servicesheader">
+        <div className="shbox title">
+          <h2>OUR SERVICES</h2>
+        </div>
+        <div className="shbox servicesdivider"></div>
+        <div className="shbox titletext">
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+          </h3>
+        </div>
       </div>
-      <div className="abouttext">
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </h3>
+      <div class="servicesbody">
+        <div class="servicebox">
+          <div class="box-item item1"></div>
+          <div class="box-item item2">OUR SERVICES</div>
+          <div class="box-item item3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
+            magna aliqua.
+          </div>
+        </div>
+        <div class="servicebox">
+          <div class="box-item item1"></div>
+          <div class="box-item item2">OUR SERVICES</div>
+          <div class="box-item item3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
+            magna aliqua.
+          </div>
+        </div>
+        <div class="servicebox">
+          <div class="box-item item1"></div>
+          <div class="box-item item2">OUR SERVICES</div>
+          <div class="box-item item3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
+            magna aliqua.
+          </div>
+        </div>
       </div>
     </div>
   );
