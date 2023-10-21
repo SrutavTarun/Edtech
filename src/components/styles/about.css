@@ -1,0 +1,34 @@
+.body{
+    background-color: #fbfbfb;
+    margin: 0rem;
+    width: 100%;
+    
+}
+.about{
+    background-color: white;
+    margin-top: -5%;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+}
+.aboutunderline{
+    height: 0.2rem;
+    width: 5rem;
+    margin:auto;
+    margin-top: 0rem;
+    background-color: #04B4B9;
+}
+.abouttext{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #051759;
+    margin: 0rem;
+}
+h3{
+    color: grey;
+    font-weight: 400;
+}
