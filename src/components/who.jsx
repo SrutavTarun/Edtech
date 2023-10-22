@@ -1,5 +1,5 @@
 import "./styles/who.css";
-
+import whobg from "./whocanjoin.png";
 const about = () => {
   return (
     <div className="whomain">
@@ -16,7 +16,7 @@ const about = () => {
           <div class="who">Lorem ipsum dolor sit amet</div>
         </div>
         <div class="who-img">
-          <img src="../components/whocanjoin.png" alt="Who Can Join Image" />
+          <img src={whobg} alt="Who Can Join Image" />
         </div>
       </div>
     </div>
