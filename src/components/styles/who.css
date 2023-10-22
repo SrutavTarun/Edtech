@@ -1,0 +1,48 @@
+/* Reset default margin and padding for body and remove default list styling */
+.whomain{
+    padding-top: 10rem;
+  }
+  /* Define styles for the whobody container */
+  .whobody {
+    display: flex;
+  }
+  .whoheading{
+    padding-bottom: 3rem;
+  }
+  .whounderline{
+    height: 0.2rem;
+    width: 10rem;
+    margin:auto;
+    margin-top: 0rem;
+    background-color: #04B4B9;
+}
+  /* Style for the who-container */
+  .who-container {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px; /* Add some padding for spacing */
+  }
+  
+  /* Style for the 'who' divs */
+  .who {
+    margin: 1rem 0;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    flex: 1; /* Expand to fill available space vertically */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.052), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+  }
+  
+  /* Style for the who-img on the right side */
+  .who-img {
+    flex: 1; /* Expand to take the remaining space */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(4, 180, 185, 0.5) 0%, rgba(4, 180, 185, 0) 97.92%);
+    padding: 10px; /* Add some padding for spacing */
+  }
+  

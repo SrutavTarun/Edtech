@@ -1,0 +1,35 @@
+
+.about{
+    background-color: white;
+    align-items: center;
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: fit-content;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.059);
+}
+.aboutunderline{
+    height: 0.2rem;
+    width: 5rem;
+    margin:auto;
+    margin-top: 0rem;
+    background-color: #04B4B9;
+}
+.abouttext{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2rem;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #051759;
+    margin: 0rem;
+    text-align: center;
+}
+h3{
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
