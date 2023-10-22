@@ -1,5 +1,5 @@
 import "./styles/who.css";
-import whobg from "./whocanjoin.png";
+import whobg from "../assets/whocanjoin.png";
 const about = () => {
   return (
     <div className="whomain">

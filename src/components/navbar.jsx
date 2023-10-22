@@ -14,8 +14,8 @@ const Navbar = () => {
         <li>
           <a href="#">SERVICES</a>
         </li>
-        <li className="contact">
-          <a href="#">CONTACT US</a>
+        <li>
+          <a href="#" className="contact">CONTACT US</a>
         </li>
       </ul>
     </div>

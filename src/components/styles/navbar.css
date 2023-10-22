@@ -5,8 +5,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: #ffffff;
+  height: fit-content;
+  width: 100vw;
+  background-color: #FAFAFA;
   padding: 20px 0;
   z-index: 50; /* Ensures the navbar is on top of other content */
 }
@@ -47,15 +48,19 @@
 
 .contact{
     background-color: #ffffff;
-    color: #000000;
     padding: 10px 20px;
-    border: #6A83DF 5px solid;
+    border: #6A83DF 3px solid;
     border-radius: 5px;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 700;
     transition: 0.3s;
 }
 
-.contact:hover{
+.navbar a.contact{
+    color: #000000;
+}
+
+.navbar a.contact:hover{
     background-color: #6A83DF;
+    color: #ffffff;
 }
