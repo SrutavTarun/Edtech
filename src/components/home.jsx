@@ -3,7 +3,7 @@ import homeImage from "../assets/home.png";
 
 const home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="left">
         <div className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit

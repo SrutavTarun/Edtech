@@ -2,7 +2,7 @@ import "./styles/services.css";
 
 const services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="servicesheader">
         <div className="shbox title">
           <h2 className="servicesheading">OUR SERVICES</h2>

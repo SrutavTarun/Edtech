@@ -3,7 +3,7 @@ import "./styles/contact.css";
 const Contact = () => {
   return (
     <>
-      <h2>CONTACT US</h2>
+      <h2 id="contact">CONTACT US</h2>
       <div className="c-line"></div>
       <div className="contactus">
         <div className="left">
