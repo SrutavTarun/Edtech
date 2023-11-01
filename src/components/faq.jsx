@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 import "./styles/faq.css";
 
 function Item({ question, answer }) {
@@ -9,6 +9,7 @@ function Item({ question, answer }) {
   };
 
   return (
+    <>
     <div className="item">
       <div className="qn" onClick={toggleAnswer}>
         <h3>{question}</h3>
@@ -16,12 +17,16 @@ function Item({ question, answer }) {
           <span>{isAnswerVisible ? "-" : "+"}</span>
         </div>
       </div>
-      {isAnswerVisible && (
-        <div className="ans">
-          <p>{answer}</p>
-        </div>
-      )}
     </div>
+    {isAnswerVisible && (
+      <>
+      <div className="ans">
+          <h3>{answer}</h3>
+        </div>
+      </>
+      )}
+    </>
+    
   );
 }
 
