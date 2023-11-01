@@ -3,26 +3,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 
-.faq h1 {
-    margin-bottom: 10px;
+.faq h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
     color: #333;
 }
 
 .faqline {
     width: 7%;
-    height: 3px;
+    height: 0.2rem;
     background-color: #1192a1;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 .line {
     width: 90%;
-    height: 2px;
+    height: 0.1rem;
     background-color: #6fe4e6;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .content {
@@ -37,16 +38,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
-
 
 .plus {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     margin-left: 1rem;
     background-color: rgb(182, 174, 174);
     cursor: pointer;
@@ -66,13 +66,13 @@
 
 .qn h3 {
     font-size: 1.2rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: #333;
 }
 
 .ans {
     width: 70%;
-    padding: 10px;
+    padding: 1rem;
     font-size: 1rem;
 }
 

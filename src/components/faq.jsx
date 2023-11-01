@@ -10,30 +10,29 @@ function Item({ question, answer }) {
 
   return (
     <>
-    <div className="item">
-      <div className="qn" onClick={toggleAnswer}>
-        <h3>{question}</h3>
-        <div className="plus">
-          <span>{isAnswerVisible ? "-" : "+"}</span>
+      <div className="item">
+        <div className="qn" onClick={toggleAnswer}>
+          <h3>{question}</h3>
+          <div className="plus">
+            <span>{isAnswerVisible ? "-" : "+"}</span>
+          </div>
         </div>
       </div>
-    </div>
-    {isAnswerVisible && (
-      <>
-      <div className="ans">
-          <h3>{answer}</h3>
-        </div>
-      </>
+      {isAnswerVisible && (
+        <>
+          <div className="ans">
+            <h3>{answer}</h3>
+          </div>
+        </>
       )}
     </>
-    
   );
 }
 
 export default function Faq() {
   return (
     <div className="faq">
-      <h1>FAQs</h1>
+      <h2>FAQs</h2>
       <div className="faqline"></div>
       <div className="content">
         <div className="line"></div>
