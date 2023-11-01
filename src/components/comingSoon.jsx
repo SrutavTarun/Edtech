@@ -1,8 +1,9 @@
-
+import cs from "../assets/comingSoon.png";
+import "./styles/comingSoon.css";
 const ComingSoon = () => {
   return (
     <div>
-      <h1>Coming Soon</h1>
+      <img src={cs} alt="Coming Soon" />
     </div>
   );
 };

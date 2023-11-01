@@ -36,8 +36,10 @@
 .qn {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 10px 0;
 }
+
 
 .plus {
     display: flex;
@@ -58,24 +60,23 @@
 .item {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
-    width: 100%;
+    width: 70%;
 }
 
-.item h3 {
+.qn h3 {
     font-size: 1.2rem;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     color: #333;
 }
 
-.item p {
+.ans {
+    width: 70%;
+    padding: 10px;
     font-size: 1rem;
-    margin-bottom: 15px;
-    text-align: center;
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
+}
+
+.ans h3 {
+    margin-bottom: 0;
     transition: all 0.3s ease-in-out;
-    color: #555;
 }
