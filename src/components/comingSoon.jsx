@@ -1,5 +1,5 @@
 import cs from "../assets/comingsoon.png";
-import "./styles/comingSoon.css";
+import "./styles/comingsoon.css";
 const ComingSoon = () => {
   return (
     <div>
