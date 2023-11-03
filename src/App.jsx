@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Services /> */}
+      <Services />
       <Who />
       <WhatCanYouDoSection />
       <HowToUseUsSection />

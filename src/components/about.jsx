@@ -3,8 +3,8 @@ import "./styles/about.css";
 const about = () => {
   return (
     <div className="about">
-      <div className="aboutheading">
-        <h2 id="about">ABOUT US</h2>
+      <div>
+        <h2 className="aboutheading">ABOUT US</h2>
         <div className="aboutunderline"></div>
       </div>
       <div className="abouttext">
