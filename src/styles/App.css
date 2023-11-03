@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Inria Sans';
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+/* .main{
+    margin-top: 4.5em;
+} */

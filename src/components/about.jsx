@@ -4,18 +4,16 @@ const about = () => {
   return (
     <div className="about">
       <div className="aboutheading">
-        <h2>ABOUT US</h2>
+        <h2 id="about">ABOUT US</h2>
         <div className="aboutunderline"></div>
       </div>
       <div className="abouttext">
         <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          An online platform that encompasses various types of universities,
+          spanning from technology to DIY, where anyone can learn, earn , grow
+          and gain a prestigious university experience and also connect with
+          others who are experts in their field for guidance to achieve their
+          dreams
         </h3>
       </div>
     </div>

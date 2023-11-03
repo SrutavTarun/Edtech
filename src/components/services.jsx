@@ -2,10 +2,10 @@ import "./styles/services.css";
 
 const services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="servicesheader">
         <div className="shbox title">
-          <h2>OUR SERVICES</h2>
+          <h2 className="servicesheading">OUR SERVICES</h2>
         </div>
         <div className="shbox servicesdivider"></div>
         <div className="shbox titletext">
@@ -15,27 +15,27 @@ const services = () => {
           </h3>
         </div>
       </div>
-      <div class="servicesbody">
-        <div class="servicebox">
-          <div class="box-item item1"></div>
-          <div class="box-item item2">OUR SERVICES</div>
-          <div class="box-item item3">
+      <div className="servicesbody">
+        <div className="servicebox">
+          <div className="box-item item1"></div>
+          <div className="box-item item2">OUR SERVICES</div>
+          <div className="box-item item3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
             magna aliqua.
           </div>
         </div>
-        <div class="servicebox">
-          <div class="box-item item1"></div>
-          <div class="box-item item2">OUR SERVICES</div>
-          <div class="box-item item3">
+        <div className="servicebox">
+          <div className="box-item item1"></div>
+          <div className="box-item item2">OUR SERVICES</div>
+          <div className="box-item item3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
             magna aliqua.
           </div>
         </div>
-        <div class="servicebox">
-          <div class="box-item item1"></div>
-          <div class="box-item item2">OUR SERVICES</div>
-          <div class="box-item item3">
+        <div className="servicebox">
+          <div className="box-item item1"></div>
+          <div className="box-item item2">OUR SERVICES</div>
+          <div className="box-item item3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, t dolore
             magna aliqua.
           </div>
