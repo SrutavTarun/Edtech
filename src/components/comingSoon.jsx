@@ -1,4 +1,4 @@
-import cs from "../assets/comingSoon.png";
+import cs from "../assets/comingsoon.png";
 import "./styles/comingSoon.css";
 const ComingSoon = () => {
   return (
