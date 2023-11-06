@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 import "./styles/footer.css";
 
 const Footer = () => {
@@ -6,15 +8,50 @@ const Footer = () => {
       <div className="ftop">
         <div className="fleft">
           <div className="flogo">LOGO</div>
-          <div className="fltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet,</div>
+          {/* <div className="fltext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor Lorem ipsum dolor sit amet,
+          </div> */}
         </div>
         <div className="fmid">
           <div className="fmhead">Useful Links</div>
           <div className="flist">
-            <div className="flist-item">Home</div>
-            <div className="flist-item">About</div>
-            <div className="flist-item">Services</div>
-            <div className="flist-item">Contact</div>
+            <Link
+              to="home"
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="flist-item"
+            >
+              Home
+            </Link>
+            <Link
+              to="about"
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="flist-item"
+            >
+              About Us
+            </Link>
+            <Link
+              to="services"
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="flist-item"
+            >
+              Services
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="flist-item"
+            >
+              Contact
+            </Link>
           </div>
         </div>
         <div className="fright">
@@ -27,11 +64,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <div className="fline"></div>
       <div className="fbottom">
-        <div className="fcopyright">Copyright Logo</div>
+        <div className="fcopyright">&copy; Copyright Logo</div>
         <div className="fprivacy">Privacy Policy</div>
-        <div className="fterms">Terms and Conditions</div>
+        <div className="fterms">Terms &#38; Conditions</div>
       </div>
     </div>
   );

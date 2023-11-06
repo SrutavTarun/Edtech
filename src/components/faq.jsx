@@ -10,7 +10,7 @@ function Item({ question, answer }) {
 
   return (
     <>
-      <div className="item">
+      <div className="faq-item">
         <div className="qn" onClick={toggleAnswer}>
           <h3>{question}</h3>
           <div className="plus">
@@ -34,7 +34,7 @@ export default function Faq() {
     <div className="faq">
       <h2>FAQs</h2>
       <div className="faqline"></div>
-      <div className="content">
+      <div className="faq-content">
         <div className="line"></div>
         <Item
           question="How do I become an educator on your platform?"

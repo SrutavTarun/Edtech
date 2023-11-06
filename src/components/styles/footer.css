@@ -11,30 +11,91 @@
     flex: 4;
     display: flex;
     flex-direction: row;
-    padding: 2em 7em 2em 7em;
+    padding: 4em 7em 2em 7em;
 }
 
 .fleft{
-    flex: 1;
+    flex: 2;
+    padding: 0 5em 0 0;
+}
+
+.flogo{
+    font-size: 7em;
+    font-weight: 700;
+}
+
+.fltext{
+    margin: 0.3em 0 0 0;
+    color: #797979;
+    font-size: 1.25rem;
+    line-height: 140%;
 }
 
 .fmid{
     flex: 1;
-    text-align: center;
+    margin: 0.5em 0 0 0;
 }
 
-/* .flist{
+.fmhead{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
 
-} */
+.flist{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 0 0 0; */
+}
+
+.flist-item{
+    margin: 0.3em 0 0 0;
+    color: #797979;
+    font-size: 1.25rem;
+    line-height: 140%;
+    text-align: left;
+}
 
 .fright{
     flex: 1;
+    margin: 0.5em 0 0 0;
 }
 
+.frhead{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
 
+.flink-item{
+    margin: 0.3em 0 0 0;
+    color: #797979;
+    font-size: 1.25rem;
+    line-height: 140%;
+    text-align: left;
+}
+
+.fline{
+    opacity: 0.5;
+    background-color: #797979;
+    height: 0.1em;
+    margin: 0 4em;
+}
 
 .fbottom{
     flex: 1;
     display: flex;
     flex-direction: row;
+    color: #797979;
+    margin: 1em 6em 0 6em;
+}
+
+.fcopyright{
+    flex: 5;
+}
+
+.fprivacy{
+    flex: 1;
+}
+
+.fterms{
+    flex: 1;
 }

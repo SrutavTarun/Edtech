@@ -4,17 +4,17 @@ import homeImage from "../assets/home.png";
 const home = () => {
   return (
     <div className="home" id="home">
-      <div className="left">
-        <div className="text">
+      <div className="home-left">
+        <div className="home-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </div>
-        <div className="links">
-          <div className="learnMore">LEARN MORE</div>
-          <div className="getInTouch">GET IN TOUCH</div>
+        <div className="home-links">
+          <div className="home-learnMore">LEARN MORE</div>
+          <div className="home-getInTouch">GET IN TOUCH</div>
         </div>
       </div>
-      <div className="right">
-        <div className="homeImage">
+      <div className="home-right">
+        <div className="home-homeImage">
           <img src={homeImage} alt="Home" />
         </div>
       </div>

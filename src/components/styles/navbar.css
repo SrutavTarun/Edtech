@@ -1,4 +1,4 @@
-.navbar {
+.nav-navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -12,7 +12,7 @@
   z-index: 50; /* Ensures the navbar is on top of other content */
 }
 
-.logo {
+.nav-logo {
     padding: 0;
     margin: 0 20px;
     height: fit-content;
@@ -23,30 +23,30 @@
     line-height: normal;
 }
 
-.navbar ul {
+.nav-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   align-content: end;
 }
 
-.navbar li {
+.nav-navbar li {
   display: inline;
   margin: 0 2.5em;
   font-size: 1.25em;
 }
 
-.navbar a {
+.nav-navbar a {
   text-decoration: none;
   color: #000000;
   transition: 0.3s;
 }
 
-.navbar a:hover {
+.nav-navbar a:hover {
   color: #6A83DF;
 }
 
-.contact{
+.nav-contact{
     background-color: #ffffff;
     padding: 10px 20px;
     border: #6A83DF 3px solid;
@@ -56,11 +56,11 @@
     transition: 0.3s;
 }
 
-.navbar a.contact{
+.nav-navbar a.nav-contact{
     color: #000000;
 }
 
-.navbar a.contact:hover{
+.nav-navbar a.nav-contact:hover{
     background-color: #6A83DF;
     color: #ffffff;
 }

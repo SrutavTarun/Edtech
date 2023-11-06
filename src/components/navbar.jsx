@@ -1,11 +1,11 @@
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 import "./styles/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="logo">LOGO</div>
+    <div className="nav-navbar">
+      <div className="nav-logo">LOGO</div>
       <ul>
         <li>
           <Link to="home" smooth={true} offset={-70} duration={500}>
@@ -23,7 +23,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} offset={-70} duration={500}>
+          <Link
+            to="contact"
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="nav-contact"
+          >
             CONTACT US
           </Link>
         </li>
