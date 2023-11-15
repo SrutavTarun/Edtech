@@ -101,8 +101,15 @@
     flex: 5;
 }
 
+.f-bottom-row2{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
 .fprivacy{
     flex: 1;
+    margin: 0 2em 0 0;
 }
 
 .fterms{
