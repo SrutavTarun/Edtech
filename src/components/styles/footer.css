@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    height: 21.75rem;
+    height: fit-content;
     background: #202020;
     color: white;
     display: flex;
@@ -11,24 +11,27 @@
     flex: 4;
     display: flex;
     flex-direction: row;
-    padding: 4em 7em 2em 7em;
+    padding: 4em 7em 2em 0em;
 }
 
 .fleft{
-    flex: 2;
-    padding: 0 5em 0 0;
+    flex: 1;
+    padding: 0 0 0 0;
 }
 
 .flogo{
-    font-size: 7em;
-    font-weight: 700;
+    margin: 2em 4em 2em 2em;
 }
 
-.fltext{
-    margin: 0.3em 0 0 0;
-    color: #797979;
-    font-size: 1.25rem;
-    line-height: 140%;
+.footer-logo-img{
+    width: 9em;
+    height: 9em;
+}
+
+.fleft-mid{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
 }
 
 .fmid{
@@ -98,4 +101,81 @@
 
 .fterms{
     flex: 1;
+}
+
+@media screen and (max-width: 900px){
+    .ftop{
+        margin: 0 0 0 2em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .ftop{
+        flex-direction: column;
+        margin: 2em 0 0 0em;
+        padding: 0;
+    }
+
+    .fleft{
+        margin: 0 auto;
+    }
+
+    .flogo{
+        margin: 0;
+        padding: 0;
+    }
+
+    .fleft-mid{
+        margin: 0 auto;
+        padding: 0 auto;
+        white-space: nowrap;
+    }
+
+    .fmid{
+        margin: 1em 1em 1em 0;
+    }
+
+    .flist, .flinks{
+        display: flex;
+        flex-direction: row;
+        margin: 0.5em 0 0 0;
+    }
+
+    .f-mid-row1, .f-mid-row2, .f-right-row1, .f-right-row2{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .flist-item, .flink-item{
+        margin: 0 1em 0 0;
+    }
+
+    .fright{
+        margin: 1em 0 0 0;
+    }
+
+    .fline{
+        margin: 0 0.2em;
+    }
+
+    .fbottom{
+        flex-direction: column;
+        margin: 1em auto;
+        padding: 0;
+        white-space: nowrap;
+    }
+
+    .f-bottom-row2{
+        margin: 0.3em 0 0 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fprivacy{
+        margin: 0 2em 0 0;
+    }
+
+    /* .fterms{
+
+    } */
 }

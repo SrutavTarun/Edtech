@@ -77,6 +77,44 @@
   max-width: 50%;
 }
 
-.home-homeImage{
+@media screen and (max-width:1030px) {
+  .home{
+    flex-direction: column;
+    height: max-content;
+    padding: 0 0 2em 0;
+  }
 
+  .home-links{
+    margin: 0em 20%;
+  }
+
+  .home-right{
+    margin: 0 10% auto 25%;
+    scale: 1.3;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  .home-left{
+    padding: 2em 3em 0em 3em;
+  }
+
+  .home-text{
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+  }
+
+  .home-links{
+    margin: 0 0 0 -4.3em;
+    scale: 0.7;
+    /* height: 100%;
+    width: 80%; */
+  }
+
+  .home-right{
+    scale: 1.8;
+    margin: 7em auto 0;
+    padding: 0;
+  }
 }

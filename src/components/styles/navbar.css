@@ -5,27 +5,30 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: fit-content;
+  /* height: fit-content; */
   width: 100vw;
-  background-color: #FAFAFA;
-  padding: 20px 0;
+  background-color: #fafafa;
+  padding: 0.5em 0;
+  margin: 0 0 0 0;
   z-index: 50; /* Ensures the navbar is on top of other content */
 }
 
 .nav-logo {
-    padding: 0;
-    margin: 0 20px;
-    height: fit-content;
-    color: #000;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: normal;
+  flex: 3;
+  padding: 0;
+  margin: 0 20px;
+  height: fit-content;
+}
+
+.nav-logo-img{
+  width: 3.5em;
+  height: 3.5em;
 }
 
 .nav-navbar ul {
+  flex: 1;
   list-style-type: none;
-  margin: 0;
+  margin: 1em 0;
   padding: 0;
   align-content: end;
 }
@@ -43,24 +46,64 @@
 }
 
 .nav-navbar a:hover {
-  color: #6A83DF;
+  color: #6a83df;
 }
 
-.nav-contact{
-    background-color: #ffffff;
-    padding: 10px 20px;
-    border: #6A83DF 3px solid;
-    border-radius: 5px;
-    font-size: 1em;
-    font-weight: 700;
-    transition: 0.3s;
+.nav-contact {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: #6a83df 3px solid;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 700;
+  transition: 0.3s;
 }
 
-.nav-navbar a.nav-contact{
-    color: #000000;
+.nav-navbar a.nav-contact {
+  color: #000000;
 }
 
-.nav-navbar a.nav-contact:hover{
-    background-color: #6A83DF;
-    color: #ffffff;
+.nav-navbar a.nav-contact:hover {
+  background-color: #6a83df;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    background-color: #fafafa;
+    z-index: 49;
+    padding: 0 0 1.25em 0;
+  }
+
+  .nav-navbar.active ul {
+    display: flex;
+  }
+
+  .nav-navbar li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-contact{
+    border: none;
+    padding: 10px auto;
+  }
+
+  .mobile {
+    display: flex;
+    margin: 1.5em 2em 0em 0;
+  }
+
+  .mobile i{
+    scale: 1.5;
+    height: 1.5em;
+    width: 1.5em;
+    color: #000;
+  }
 }
