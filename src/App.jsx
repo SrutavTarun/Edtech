@@ -8,15 +8,16 @@ import HowToUseUsSection from './components/howToUseUsSection';
 import './components/howToUseUsSection'
 import Navbar from './components/navbar'
 import './components/whatCanYouSection'
+import Why from './components/styles/why';
 function App() {
  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
+       <Navbar />
   <WhatCanYouDoSection />
-  <HowToUseUsSection />
-    
+  <HowToUseUsSection /> 
+    <Why />
     </>
   )
 }

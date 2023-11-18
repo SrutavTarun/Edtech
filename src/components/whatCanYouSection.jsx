@@ -4,13 +4,13 @@ import "./styles/whatCanYouSection.css";
 
 function whatCanYouDoSection() {
   return (
-    <div>
+    <div className="main">
       <div className="section">
         <h1>What Can You Do ?</h1>
         <div className="row">
           <div className="totalcontentcard">
             <div className="card">
-              <h1 className="number">01</h1>
+              <h2 className="number">01</h2>
               <h2>Create Courses</h2>
               <h4>
               creators can easily create and publish their courses on our platform. We
@@ -21,7 +21,7 @@ provide the tools and support needed to design engaging and informative content.
           </div>
           <div className="totalcontentcard">
             <div className="card">
-              <h1 className="number">02</h1>
+              <h2 className="number">02</h2>
               <h2>Learn</h2>
               <h4>
               Students can explore a wide range of courses covering various subjects and skills.
@@ -31,7 +31,7 @@ You can pick courses that match your interests and learning goals
           </div>
           <div className="totalcontentcard">
             <div className="card">
-              <h1 className="number">03</h1>
+              <h2 className="number">03</h2>
               <h2>Teach</h2>
               <h4>
               creators can share their expertise and help learners grow. Teaching on our platform
@@ -41,7 +41,7 @@ allows you to reach a global audience.
           </div>
           <div className="totalcontentcard">
             <div className="card">
-              <h1 className="number">04</h1>
+              <h2 className="number">04</h2>
               <h2>Earn</h2>
               <h4>
               creators can earn money by selling their courses. We provide a platform for you to
@@ -51,8 +51,8 @@ monetize your knowledge and expertise.
           </div>
           <div className="totalcontentcard">
             <div className="card">
-              <h1 className="number">05</h1>
-              <h2>connect</h2>
+              <h2 className="number">05</h2>
+              <h2>Connect</h2>
               <h4>
               Our community allows students and creators to connect, ask questions, and
 collaborate, fostering a supportive learning environment.

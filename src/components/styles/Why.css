@@ -1,0 +1,209 @@
+/* styles.css */
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #F1FEFF;
+  }
+  
+  .title {
+    width: 334px;
+    height: 238px;
+    left: 155px;
+    top: 24px;
+    position: absolute;
+    color: #051759;
+    font-size: 80px;
+    font-family: 'Inria Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .horizontal-line {
+    width: 200px;
+    height: 0;
+    left: 222px;
+    top: 140px;
+    position: absolute;
+    border: 4px #04B4B9 solid;
+  }
+  
+  .rotated-line {
+    width: 300px;
+    height: 0;
+    left: 644px;
+    top: 477px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    border: 2px rgba(4, 180, 185, 0.10) solid;
+  }
+  
+  .horizontal-dashed-line {
+    width: 1300px;
+    height: 0;
+    left: 62px;
+    top: 478px;
+    position: absolute;
+    border: 2px rgba(4, 180, 185, 0.10) solid;
+  }
+  
+  .text {
+    width: 373px;
+    height: 167px;
+    left: 155px;
+    top: 238px;
+    position: absolute;
+    color: #555555;
+    font-size: 24px;
+    font-family: 'Inria Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .column-container {
+    width: 1401px;
+    height: 500px;
+    left: 19px;
+    top: 478px;
+    position: absolute;
+  }
+  
+  .block {
+    width: 427px;
+    height: 312.50px;
+    position: absolute;
+  }
+  
+  .content-background {
+    width: 400px;
+    height: 175px;
+    position: absolute;
+    background: white;
+  }
+  
+  .gradient-background {
+    width: 352px;
+    height: 233px;
+    left: -30px;
+    top: 79.50px;
+    position: absolute;
+    background: linear-gradient(292deg, #6B84E0 0%, #04B4B9 100%);
+  }
+  
+  .inner-text {
+    width: 327px;
+    height: 167px;
+    left: -16px;
+    top: 128px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inria Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .inner-title {
+    width: 219px;
+    height: 48px;
+    left: -14px;
+    top: -19px;
+    bottom: 30px;
+    position: absolute;
+    color: #051759;
+    font-size: 33px;
+    font-family: 'Inria Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+ /* styles.css */
+
+@media screen and (max-width: 767px) {
+    .container {
+      height: auto; /* Adjust the height as needed for mobile */
+    }
+  
+    .title {
+      width: 100%; /* Make the title full width on mobile */
+      height: auto;
+      left: 0;
+      top: 10px;
+      font-size: 36px; /* Adjust the font size for mobile */
+    }
+  
+    .horizontal-line {
+      width: 100%; /* Make the horizontal line full width on mobile */
+      height: 4px; /* Adjust the height for mobile */
+      left: 0;
+      top: 80px; /* Adjust the top position for mobile */
+      border: 2px #04B4B9 solid; /* Adjust the border for mobile */
+    }
+  
+    .rotated-line {
+      display: none; /* Hide the rotated line on mobile */
+    }
+  
+    .horizontal-dashed-line {
+      width: 100%; /* Make the horizontal dashed line full width on mobile */
+      height: 2px; /* Adjust the height for mobile */
+      left: 0;
+      top: 200px; /* Adjust the top position for mobile */
+      border: 1px rgba(4, 180, 185, 0.10) solid; /* Adjust the border for mobile */
+    }
+  
+    .text {
+      width: 100%; /* Make the text full width on mobile */
+      height: auto;
+      left: 0;
+      top: 280px; /* Adjust the top position for mobile */
+      font-size: 18px; /* Adjust the font size for mobile */
+    }
+  
+    .column-container {
+      width: 100%; /* Make the column container full width on mobile */
+      height: auto;
+      left: 0;
+      top: 400px; /* Adjust the top position for mobile */
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .block {
+      width: 100%; /* Make the block full width on mobile */
+      height: auto;
+      position: relative; /* Adjust the position for mobile */
+    }
+  
+    .content-background {
+      width: 100%; /* Make the content background full width on mobile */
+      height: auto;
+    }
+  
+    .gradient-background {
+      width: 100%; /* Make the gradient background full width on mobile */
+      height: auto;
+      left: 0;
+      top: 50px; /* Adjust the top position for mobile */
+    }
+  
+    .inner-text {
+      width: 100%; /* Make the inner text full width on mobile */
+      height: auto;
+      left: 0;
+      top: 120px; /* Adjust the top position for mobile */
+      font-size: 16px; /* Adjust the font size for mobile */
+    }
+  
+    .inner-title {
+      width: 100%; /* Make the inner title full width on mobile */
+      height: auto;
+      left: 0;
+      top: -10px; /* Adjust the top position for mobile */
+      bottom: auto;
+      font-size: 24px; /* Adjust the font size for mobile */
+    }
+  }
+  
