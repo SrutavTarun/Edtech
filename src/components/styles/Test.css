@@ -1,0 +1,131 @@
+.desktop {
+    background-color: #f1feff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop .overlap {
+    height: 455px;
+    left: 62px;
+    position: absolute;
+    top: 23px;
+    width: 1300px;
+  }
+  
+  .desktop .overlap-2 {
+    height: 381px;
+    left: 93px;
+    position: absolute;
+    top: 0;
+    width: 373px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #041659;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-size: 80px;
+    font-weight: 400;
+    height: 238px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 334px;
+  }
+  
+  .desktop .line {
+    height: 4px;
+    left: 67px;
+    position: absolute;
+    top: 175px;
+    width: 200px;
+  }
+  
+  .desktop .p {
+    color: #555555;
+    font-family: "Inria Sans-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 167px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 214px;
+    width: 373px;
+  }
+  
+  .desktop .overlap-3 {
+    height: 301px;
+    left: 0;
+    position: absolute;
+    top: 154px;
+    width: 1300px;
+  }
+  
+  .desktop .line-2 {
+    height: 300px;
+    left: 580px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  
+  .desktop .line-3 {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 299px;
+    width: 1300px;
+  }
+  
+  .desktop .group-13 {
+    left: 757px !important;
+    position: absolute !important;
+    top: 64px !important;
+  }
+  
+  .desktop .frame {
+    height: 500px;
+    left: 19px;
+    position: absolute;
+    top: 478px;
+    width: 1401px;
+  }
+  
+  .desktop .line-4 {
+    height: 400px;
+    left: 455px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  
+  .desktop .line-5 {
+    height: 400px;
+    left: 942px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  
+  .desktop .group-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 95px !important;
+  }
+  
+  .desktop .group-13-instance {
+    left: 487px !important;
+    position: absolute !important;
+    top: 95px !important;
+  }
+  
+  .desktop .design-component-instance-node {
+    left: 974px !important;
+    position: absolute !important;
+    top: 93px !important;
+  }
+  

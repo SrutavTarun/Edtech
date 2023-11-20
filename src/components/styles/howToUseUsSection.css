@@ -17,7 +17,13 @@ body {
    
     font-size: 80px;
   }
-  
+  .how-total-content{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   margin: 20px;
+  }
   /* .how-underlined-text::before {
     content: "";
     position: absolute;
@@ -30,9 +36,11 @@ body {
   .how-card-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%; /* Adjust to 100% to ensure it spans the screen width */
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
+    
     border: 3px solid transparent; /* Set an initially transparent border */
     transition: border 0.3s ease; /* Add a smooth transition for the border */
   }
@@ -44,22 +52,14 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    margin-bottom: 20px; /* Adjust the margin to create space between the header and content */
+    margin-bottom: 5px; /* Adjust the margin to create space between the header and content */
   }
   
   .how-card-container:hover {
     border-color: rgb(25, 123, 214); /* Show the border on hover */
   }
   
-  .how-image-section {
-    max-width: 100%;
-    height: 100px;
-  }
-  
-  .how-image-section img {
-    max-width: 100%;
-    height: 120px;
-  }
+
   
   .how-card-container h1 {
     color: rgb(10, 10, 86);
@@ -70,10 +70,36 @@ body {
     color: grey;
     font-size: large;
     font-weight: 500;
+ 
   }
   
   .how-flex-card {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  }
+
+  
+
+  @media only screen and (max-width: 768px) {
+    /* For screens smaller than 768px (mobile phones): */
+    .how-underlined-text {
+      font-size: 40px; /* Adjust the font size for smaller screens */
+    }
+  
+    .how-card-container {
+      width: 200px;
+      
+      padding-bottom: 10px;
+      margin: 20px; /* Adjust the width for full width on smaller screens */
+    }
+  
+    .how-header {
+      font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+  
+    .how-flex-card {
+      flex-direction: column; /* Adjust to column for smaller screens */
+      align-items: center; /* Center the content vertically */
+    }
   }

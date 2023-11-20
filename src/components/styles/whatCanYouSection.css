@@ -1,81 +1,85 @@
-.what-section{
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    /* Linear Gradient Background */
-
-
-    width: 100%;
-    
-   
+.what-section {
+ 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 93%;
 }
 
 .what-section h1 {
- color: rgb(10, 10, 86);
+  color: rgb(10, 10, 86);
+  font-size: 42px;
+  margin: 10px;
 }
 
 .what-section h2 {
- color: rgb(10, 10, 86);
- font-size: 30px;
+  color: rgb(10, 10, 86);
+  font-size: 30px;
 }
-
 
 .what-section h4 {
- color: rgb(10, 10, 86);
+  color: rgb(10, 10, 86);
 }
 
-
-.what-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
+.what-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
-.what-totalcontentcard{
-    border-right: 2px solid #22222285;
-    height: 280px; 
+.what-totalcontentcard {
+  border-bottom: 2px solid #22222285;
+  height: auto;
 }
-/* whatCanYouSection.css */
-.what-section {
-    text-align: left;
-  }
-  
-  /* Add this class to the h1 element to override its default alignment */
-  .what-section h1 {
-    text-align: left;
-  }
 
-
-  /* Apply this CSS to your card element */
 .what-card {
-    width: 200px; /* Adjust this to your desired card width */
+  width: 76%;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  transform-origin: center bottom;
+  transform: translateY(0);
+}
+
+.what-card:hover {
+  transform: translateY(0);
+}
+
+.what-card h4 {
+  display: block;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+}
+
+@media only screen and (min-width: 768px) {
+  .what-row {
+      flex-direction: row;
+  }
+
+  .what-totalcontentcard {
+      border-bottom: none;
+      border-right: 2px solid #22222285;
+      height: 300px;
+      width: fit-content;
+  }
+
+  .what-card {
+      width: 190px;
+      transform: translateY(0);
+      height: min-content;
     
-    padding: 20px;
-    margin: 10px;
-
-    transition: transform 0.3s ease; /* Apply a smooth transform transition */
-  
-    /* Set initial transform properties */
-    transform-origin: center bottom;
-    transform: translateY(0);
   }
   
-  /* Define the hover effect to move the content up */
   .what-card:hover {
-    transform: translateY(-60px); /* Move the content 10px up */
+      transform: translateY(-60px);
   }
-  
+
   .what-card h4 {
-    display: none;
+      display: none;
   }
-
+  
   .what-card:hover h4 {
-    display: block;
-    transition: transform 0.3s ease; /* Apply a smooth transform transition */
-    transform: translateY(-10px); /* Move the content 10px up */
+      display: block;
+      transform: translateY(-10px);
   }
-
-
-  
-  
+}
