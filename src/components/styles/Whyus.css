@@ -1,0 +1,225 @@
+.why-container {
+  display: flex;
+  flex-direction: column;
+  background: color #f1feff;
+}
+
+.why-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.why-us-card {
+  width: 30%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.why-header {
+  color: #051759;
+  font-size: 80px;
+  font-family: Inria Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 8px;
+}
+
+.why-paragraph {
+  color: #051759;
+  font-size: 24px;
+  font-family: Inria Sans;
+  font-weight: 900;
+  word-wrap: break-word;
+  margin: 10px;
+}
+
+.group-13,
+.group-13 * {
+  box-sizing: border-box;
+}
+.group-13 {
+  width: 427px;
+  height: 312.5px;
+
+  position: relative;
+}
+
+.rectangle-18 {
+  background: #ffffff;
+
+  position: absolute;
+  right: 6.32%;
+  left: 0%;
+  width: 93.68%;
+  bottom: 44%;
+  top: 0%;
+  height: 56%;
+}
+
+.rectangle-22 {
+  height: auto;
+
+  position: absolute;
+  right: 0%;
+  left: 12.41%;
+  width: 87.59%;
+  bottom: 0%;
+  top: 25.44%;
+  height: 74.56%;
+
+  overflow: visible;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px "InriaSans-Regular", sans-serif;
+
+  position: absolute;
+  right: 3.04%;
+  left: 20.37%;
+  width: 76.58%;
+  bottom: 5.6%;
+  top: 40.96%;
+  height: 53.44%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.lorem-ipsum {
+  color: #051759;
+
+  font: 400 32px "InriaSans-Regular", sans-serif;
+
+  position: absolute;
+  right: 37.7%;
+  left: 11.01%;
+  width: 70.29%;
+  bottom: 74.08%;
+  top: 0.96%;
+  height: 24.96%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.why-second-row{
+    display: flex;
+    flex-direction: row;
+  margin: 20px;
+   justify-content: space-evenly;
+   margin-top: 50px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    /* For screens smaller than 768px (mobile phones): */
+    .why-us-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .why-paragraph{
+        font-size: 14px;
+        width: 200px;
+    }
+    .why-first-row{
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .why-second-row{
+        display: flex;
+        
+        flex-direction: column;
+       
+    }
+    
+.group-13,
+.group-13 * {
+  box-sizing: border-box;
+}
+.group-13 {
+  width: 427px;
+  height: 312.5px;
+
+  position: relative;
+}
+
+.rectangle-18 {
+  background: #ffffff;
+
+  position: absolute;
+  right: 6.32%;
+  left: 0%;
+  width: 93.68%;
+  bottom: 44%;
+  top: 0%;
+  height: 56%;
+}
+
+.rectangle-22 {
+  height: auto;
+
+  position: absolute;
+  right: 0%;
+  
+  width: 70.59%;
+  bottom: 0%;
+  top: 25.44%;
+  height: 80.56%;
+
+  overflow: visible;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "InriaSans-Regular", sans-serif;
+
+  position: absolute;
+  right: 3.04%;
+  left: 20.37%;
+  width: 54.58%;
+  bottom: 5.6%;
+  top: 40.96%;
+  height: 53.44%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.lorem-ipsum {
+  color: #051759;
+
+  font: 400 32px "InriaSans-Regular", sans-serif;
+
+  position: absolute;
+  right: 37.7%;
+  left: 11.01%;
+  width: 70.29%;
+  bottom: 74.08%;
+  top: 0.96%;
+  height: 24.96%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+  }

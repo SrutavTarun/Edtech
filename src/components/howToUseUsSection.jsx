@@ -4,7 +4,7 @@ import "./styles/howToUseUsSection.css";
 const HowToUseUsSection = () => {
   return (
     <div>
-      <div>
+      <div className="how-total-content">
         <h1 className="how-underlined-text">How to Use Us ?</h1>
         <div className="how-flex-card">
           <div className="how-card-container">

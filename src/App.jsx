@@ -10,6 +10,8 @@ import ComingSoon from "./components/comingSoon";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+//import Why from "./components/Why";
+import Whyus from "./components/Whyus";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Who />
       <WhatCanYouDoSection />
       <HowToUseUsSection />
+    <Whyus />
       <ComingSoon />
       <Faq />
       <Contact />
